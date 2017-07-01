@@ -1,0 +1,657 @@
+2015/10/29 11:04:56 - --> CInstallDlg::OnInstallation(), wd_DlgInstall.cpp|2084
+2015/10/29 11:04:56 - --> CInstallDlg::UninstallOtherProducts(), wd_DlgInstall.cpp|527
+2015/10/29 11:04:56 - C:\Users\kpvs\AppData\Local\Temp\\OfficeScanWebDeployment.ini, wd_DlgInstall.cpp|541
+2015/10/29 11:04:56 - ServiceModel:!CRYPT!10627AA5FC2E5A9439D7A544E0B, wd_DlgInstall.cpp|544
+2015/10/29 11:04:56 - unistall  AV competitors, wd_DlgInstall.cpp|558
+2015/10/29 11:04:56 - unistall  AS competitors, wd_DlgInstall.cpp|563
+2015/10/29 11:04:56 - Launch uninstall program command line(C:\Users\kpvs\AppData\Local\Temp\ICD2.tmp\tmuninst.exe C:\Users\kpvs\AppData\Local\Temp\ICD2.tmp\tmuninst.ptn)), wd_DlgInstall.cpp|616
+2015/10/29 11:04:56 -     dwExitCode = 1, wd_DlgInstall.cpp|633
+2015/10/29 11:04:56 - Launch uninstall program command line(C:\Users\kpvs\AppData\Local\Temp\ICD2.tmp\tmuninst.exe C:\Users\kpvs\AppData\Local\Temp\ICD2.tmp\TMUNIN~1.PTN)), wd_DlgInstall.cpp|660
+2015/10/29 11:04:56 -     dwExitCode = 1, wd_DlgInstall.cpp|677
+2015/10/29 11:04:56 - <-- CInstallDlg::UninstallOtherProducts(), fSuccess = 1, wd_DlgInstall.cpp|697
+2015/10/29 11:04:56 - --> CInstallDlg::DisplayInfo(), wd_DlgInstall.cpp|1552
+2015/10/29 11:04:56 - <-- CInstallDlg::DisplayInfo(), wd_DlgInstall.cpp|1591
+2015/10/29 11:04:56 - --> CInstallDlg::DownloadServerIniFile(), wd_DlgInstall.cpp|1458
+2015/10/29 11:04:57 - --> CInstallDlg::ConnectToServer(const TCHAR* pszServer, const TCHAR* pszObject = pccillin.kpvs.ntpc.edu.tw, const TCHAR* pszOutputFilename = C:\Users\kpvs\AppData\Local\Temp\ServerIni.cab,INTERNET_STATUS_CALLBACK_EX pfInternetStatusCallback = 00408820,CONTENT_LENGTH_CALLBACK pfContentLengthCallback = 00408800,void* pvThis = 0012FA8C), wd_DlgInstall.cpp|1994
+2015/10/29 11:04:57 - 1 = ::getComputerNameInServerName(pszServer = pccillin.kpvs.ntpc.edu.tw, strComputerName = pccillin)), wd_DlgInstall.cpp|2000
+2015/10/29 11:04:57 - --> CInstallDlg::ConnectToServer_Try(const TCHAR* pszServer, const TCHAR* pszObject = pccillin, const TCHAR* pszOutputFilename = C:\Users\kpvs\AppData\Local\Temp\ServerIni.cab,INTERNET_STATUS_CALLBACK_EX pfInternetStatusCallback = 00408820,CONTENT_LENGTH_CALLBACK pfContentLengthCallback = 00408800,void* pvThis = 0012FA8C), wd_DlgInstall.cpp|1789
+2015/10/29 11:04:57 -     option.m_pszServerName    = pccillin, wd_DlgInstall.cpp|1861
+2015/10/29 11:04:57 -     option.m_pszObjectName    = /officescan/console/html/ClientInstall/WinNT/ServerIni.cab, wd_DlgInstall.cpp|1862
+2015/10/29 11:04:57 -     option.m_pszProxyBypass   = (null), wd_DlgInstall.cpp|1863
+2015/10/29 11:04:57 -     option.m_pszProxyServer   = (null), wd_DlgInstall.cpp|1864
+2015/10/29 11:04:57 -     option.m_pszProxyUsername = (null), wd_DlgInstall.cpp|1865
+2015/10/29 11:04:57 -     option.m_pszUsername      = (null), wd_DlgInstall.cpp|1866
+2015/10/29 11:04:57 -     option.m_nServerPort      = 8080, wd_DlgInstall.cpp|1868
+2015/10/29 11:04:57 -     option.m_nProxyPort       = 80, wd_DlgInstall.cpp|1869
+2015/10/29 11:04:57 -     option.m_dwFlags          = 80000000, wd_DlgInstall.cpp|1870
+2015/10/29 11:04:57 -     option.m_dwRetries        = 3, wd_DlgInstall.cpp|1871
+2015/10/29 11:04:57 -     option.m_dwConnectTimeout        = 360000, wd_DlgInstall.cpp|1873
+2015/10/29 11:04:57 -     option.m_dwControlSendTimeout    = 360000, wd_DlgInstall.cpp|1874
+2015/10/29 11:04:57 -     option.m_dwControlReceiveTimeout = 360000, wd_DlgInstall.cpp|1875
+2015/10/29 11:04:57 -     option.m_dwDataSendTimeout       = 360000, wd_DlgInstall.cpp|1876
+2015/10/29 11:04:57 -     option.m_dwDataReceiveTimeout    = 360000, wd_DlgInstall.cpp|1877
+2015/10/29 11:04:57 -     option.m_dwProxyAuthenticationRetryCount    = 3, wd_DlgInstall.cpp|1878
+2015/10/29 11:04:57 -     option.m_pfInternetStatusCallback = 00408820, wd_DlgInstall.cpp|1879
+2015/10/29 11:04:57 -     option.m_pfContentLengthCallback  = 00408800, wd_DlgInstall.cpp|1880
+2015/10/29 11:04:57 -     option.m_pfConnectCancelCallback  = 00000000, wd_DlgInstall.cpp|1881
+2015/10/29 11:04:57 -     option.m_pvThis					 = 0012FA8C, wd_DlgInstall.cpp|1882
+2015/10/29 11:04:59 - <-- CInstallDlg::ConnectToServer_Try(const TCHAR* pszServer, const TCHAR* pszObject = pccillin, const TCHAR* pszOutputFilename = C:\Users\kpvs\AppData\Local\Temp\ServerIni.cab,INTERNET_STATUS_CALLBACK_EX pfInternetStatusCallback = 00408820,CONTENT_LENGTH_CALLBACK pfContentLengthCallback = 00408800,void* pvThis = 0012FA8C), fSuccess = 0, wd_DlgInstall.cpp|1981
+2015/10/29 11:04:59 - --> CInstallDlg::ConnectToServer_Try(const TCHAR* pszServer, const TCHAR* pszObject = pccillin.kpvs.ntpc.edu.tw, const TCHAR* pszOutputFilename = C:\Users\kpvs\AppData\Local\Temp\ServerIni.cab,INTERNET_STATUS_CALLBACK_EX pfInternetStatusCallback = 00408820,CONTENT_LENGTH_CALLBACK pfContentLengthCallback = 00408800,void* pvThis = 0012FA8C), wd_DlgInstall.cpp|1789
+2015/10/29 11:04:59 -     option.m_pszServerName    = pccillin.kpvs.ntpc.edu.tw, wd_DlgInstall.cpp|1861
+2015/10/29 11:04:59 -     option.m_pszObjectName    = /officescan/console/html/ClientInstall/WinNT/ServerIni.cab, wd_DlgInstall.cpp|1862
+2015/10/29 11:04:59 -     option.m_pszProxyBypass   = (null), wd_DlgInstall.cpp|1863
+2015/10/29 11:04:59 -     option.m_pszProxyServer   = (null), wd_DlgInstall.cpp|1864
+2015/10/29 11:04:59 -     option.m_pszProxyUsername = (null), wd_DlgInstall.cpp|1865
+2015/10/29 11:04:59 -     option.m_pszUsername      = (null), wd_DlgInstall.cpp|1866
+2015/10/29 11:04:59 -     option.m_nServerPort      = 8080, wd_DlgInstall.cpp|1868
+2015/10/29 11:04:59 -     option.m_nProxyPort       = 80, wd_DlgInstall.cpp|1869
+2015/10/29 11:04:59 -     option.m_dwFlags          = 80000000, wd_DlgInstall.cpp|1870
+2015/10/29 11:04:59 -     option.m_dwRetries        = 3, wd_DlgInstall.cpp|1871
+2015/10/29 11:04:59 -     option.m_dwConnectTimeout        = 360000, wd_DlgInstall.cpp|1873
+2015/10/29 11:04:59 -     option.m_dwControlSendTimeout    = 360000, wd_DlgInstall.cpp|1874
+2015/10/29 11:04:59 -     option.m_dwControlReceiveTimeout = 360000, wd_DlgInstall.cpp|1875
+2015/10/29 11:04:59 -     option.m_dwDataSendTimeout       = 360000, wd_DlgInstall.cpp|1876
+2015/10/29 11:04:59 -     option.m_dwDataReceiveTimeout    = 360000, wd_DlgInstall.cpp|1877
+2015/10/29 11:04:59 -     option.m_dwProxyAuthenticationRetryCount    = 3, wd_DlgInstall.cpp|1878
+2015/10/29 11:04:59 -     option.m_pfInternetStatusCallback = 00408820, wd_DlgInstall.cpp|1879
+2015/10/29 11:04:59 -     option.m_pfContentLengthCallback  = 00408800, wd_DlgInstall.cpp|1880
+2015/10/29 11:04:59 -     option.m_pfConnectCancelCallback  = 00000000, wd_DlgInstall.cpp|1881
+2015/10/29 11:04:59 -     option.m_pvThis					 = 0012FA8C, wd_DlgInstall.cpp|1882
+2015/10/29 11:04:59 - <-- CInstallDlg::ConnectToServer_Try(const TCHAR* pszServer, const TCHAR* pszObject = pccillin.kpvs.ntpc.edu.tw, const TCHAR* pszOutputFilename = C:\Users\kpvs\AppData\Local\Temp\ServerIni.cab,INTERNET_STATUS_CALLBACK_EX pfInternetStatusCallback = 00408820,CONTENT_LENGTH_CALLBACK pfContentLengthCallback = 00408800,void* pvThis = 0012FA8C), fSuccess = 1, wd_DlgInstall.cpp|1981
+2015/10/29 11:04:59 - INTERNET_STATUS_CALLBACK_EX pfInternetStatusCallback = 00408820,CONTENT_LENGTH_CALLBACK pfContentLengthCallback = 00408800,void* pvThis = 0012FA8C), fSuccess = 1, wd_DlgInstall.cpp|2026
+2015/10/29 11:04:59 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Users\kpvs\AppData\Local\Temp\Ofcscan.ini), wd_DlgInstall.cpp|1531
+2015/10/29 11:04:59 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Users\kpvs\AppData\Local\Temp\Ofcscan.ini), wd_DlgInstall.cpp|1547
+2015/10/29 11:04:59 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Users\kpvs\AppData\Local\Temp\ssnotify.ini), wd_DlgInstall.cpp|1531
+2015/10/29 11:04:59 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Users\kpvs\AppData\Local\Temp\ssnotify.ini), wd_DlgInstall.cpp|1547
+2015/10/29 11:04:59 - <-- CInstallDlg::DownloadServerIniFile(), fSuccess = 1, wd_DlgInstall.cpp|1483
+2015/10/29 11:04:59 - --> CInstallDlg::CreateInstallDirectory(), wd_DlgInstall.cpp|1366
+2015/10/29 11:04:59 - --> CInstallDlg::DecodeInstallPath(const CString& strValue = $ProgramFiles\Trend Micro\OfficeScan Client), wd_DlgInstall.cpp|1287
+2015/10/29 11:04:59 -     $ProgramFiles, wd_DlgInstall.cpp|1317
+2015/10/29 11:04:59 - <-- CInstallDlg::DecodeInstallPath(const CString& strValue = $ProgramFiles\Trend Micro\OfficeScan Client), strReturn = C:\Program Files\Trend Micro\OfficeScan Client, wd_DlgInstall.cpp|1360
+2015/10/29 11:04:59 -     uDriveType(0x3) = ::GetDriveType(pszDrive = C:\), DRIVE_FIXED = 0x3, wd_DlgInstall.cpp|1421
+2015/10/29 11:04:59 - ForceCreateDir C:\Program Files\Trend Micro\OfficeScan Client, wd_DlgInstall.cpp|2425
+2015/10/29 11:04:59 - strParentDir C:\Program Files\Trend Micro, wd_DlgInstall.cpp|2430
+2015/10/29 11:04:59 - ForceCreateDir C:\Program Files\Trend Micro, wd_DlgInstall.cpp|2425
+2015/10/29 11:04:59 - strParentDir C:\Program Files, wd_DlgInstall.cpp|2430
+2015/10/29 11:04:59 - CreateDirectory C:\Program Files\Trend Micro, wd_DlgInstall.cpp|2440
+2015/10/29 11:04:59 - CreateDirectory C:\Program Files\Trend Micro\OfficeScan Client, wd_DlgInstall.cpp|2440
+2015/10/29 11:04:59 - --> CInstallDlg::CheckFreeDiskSpace(const CString& strInstalledDirectory = C:\Program Files\Trend Micro\OfficeScan Client, BOOL fDisplayErrorMsg = 0), wd_DlgInstall.cpp|857
+2015/10/29 11:04:59 - m_strEstimativeDiskSpace = 367001600, wd_DlgInstall.cpp|863
+2015/10/29 11:04:59 - dEstimativeDiskSpace = 367001600.000000, dFreeDiskSpace = 74051702784.000000, wd_DlgInstall.cpp|895
+2015/10/29 11:04:59 - <-- CInstallDlg::CheckFreeDiskSpace(const CString& strInstalledDirectory = C:\Program Files\Trend Micro\OfficeScan Client, BOOL fDisplayErrorMsg = 0), fSuccess = 1, wd_DlgInstall.cpp|932
+2015/10/29 11:04:59 -     fSpaceAvailable(1) = CheckFreeDiskSpace(m_strInstalledDirectory = C:\Program Files\Trend Micro\OfficeScan Client, fDisplayErrMsg = 0), wd_DlgInstall.cpp|1430
+2015/10/29 11:04:59 -     m_strInstalledDirectory = C:\Program Files\Trend Micro\OfficeScan Client, wd_DlgInstall.cpp|1450
+2015/10/29 11:04:59 - <-- CInstallDlg::CreateInstallDirectory(), fSuccess = 1, wd_DlgInstall.cpp|1452
+2015/10/29 11:04:59 - --> CInstallDlg::CreatePCScanStuff(), wd_DlgInstall.cpp|703
+2015/10/29 11:04:59 - <-- CInstallDlg::CreatePCScanStuff(), wd_DlgInstall.cpp|795
+2015/10/29 11:04:59 - --> CInstallDlg::DownloadPatternFile(), wd_DlgInstall.cpp|1489
+2015/10/29 11:05:00 - --> CInstallDlg::ConnectToServer(const TCHAR* pszServer, const TCHAR* pszObject = pccillin.kpvs.ntpc.edu.tw, const TCHAR* pszOutputFilename = C:\Program Files\Trend Micro\OfficeScan Client\pattern.cab,INTERNET_STATUS_CALLBACK_EX pfInternetStatusCallback = 00408820,CONTENT_LENGTH_CALLBACK pfContentLengthCallback = 00408800,void* pvThis = 0012FA8C), wd_DlgInstall.cpp|1994
+2015/10/29 11:05:00 - 1 = ::getComputerNameInServerName(pszServer = pccillin.kpvs.ntpc.edu.tw, strComputerName = pccillin)), wd_DlgInstall.cpp|2000
+2015/10/29 11:05:00 - --> CInstallDlg::ConnectToServer_Try(const TCHAR* pszServer, const TCHAR* pszObject = pccillin, const TCHAR* pszOutputFilename = C:\Program Files\Trend Micro\OfficeScan Client\pattern.cab,INTERNET_STATUS_CALLBACK_EX pfInternetStatusCallback = 00408820,CONTENT_LENGTH_CALLBACK pfContentLengthCallback = 00408800,void* pvThis = 0012FA8C), wd_DlgInstall.cpp|1789
+2015/10/29 11:05:00 -     option.m_pszServerName    = pccillin, wd_DlgInstall.cpp|1861
+2015/10/29 11:05:00 -     option.m_pszObjectName    = /officescan/console/html/ClientInstall/WinNT/pattern.cab, wd_DlgInstall.cpp|1862
+2015/10/29 11:05:00 -     option.m_pszProxyBypass   = (null), wd_DlgInstall.cpp|1863
+2015/10/29 11:05:00 -     option.m_pszProxyServer   = (null), wd_DlgInstall.cpp|1864
+2015/10/29 11:05:00 -     option.m_pszProxyUsername = (null), wd_DlgInstall.cpp|1865
+2015/10/29 11:05:00 -     option.m_pszUsername      = (null), wd_DlgInstall.cpp|1866
+2015/10/29 11:05:00 -     option.m_nServerPort      = 8080, wd_DlgInstall.cpp|1868
+2015/10/29 11:05:00 -     option.m_nProxyPort       = 80, wd_DlgInstall.cpp|1869
+2015/10/29 11:05:00 -     option.m_dwFlags          = 80000000, wd_DlgInstall.cpp|1870
+2015/10/29 11:05:00 -     option.m_dwRetries        = 3, wd_DlgInstall.cpp|1871
+2015/10/29 11:05:00 -     option.m_dwConnectTimeout        = 360000, wd_DlgInstall.cpp|1873
+2015/10/29 11:05:00 -     option.m_dwControlSendTimeout    = 360000, wd_DlgInstall.cpp|1874
+2015/10/29 11:05:00 -     option.m_dwControlReceiveTimeout = 360000, wd_DlgInstall.cpp|1875
+2015/10/29 11:05:00 -     option.m_dwDataSendTimeout       = 360000, wd_DlgInstall.cpp|1876
+2015/10/29 11:05:00 -     option.m_dwDataReceiveTimeout    = 360000, wd_DlgInstall.cpp|1877
+2015/10/29 11:05:00 -     option.m_dwProxyAuthenticationRetryCount    = 3, wd_DlgInstall.cpp|1878
+2015/10/29 11:05:00 -     option.m_pfInternetStatusCallback = 00408820, wd_DlgInstall.cpp|1879
+2015/10/29 11:05:00 -     option.m_pfContentLengthCallback  = 00408800, wd_DlgInstall.cpp|1880
+2015/10/29 11:05:00 -     option.m_pfConnectCancelCallback  = 00000000, wd_DlgInstall.cpp|1881
+2015/10/29 11:05:00 -     option.m_pvThis					 = 0012FA8C, wd_DlgInstall.cpp|1882
+2015/10/29 11:05:03 - <-- CInstallDlg::ConnectToServer_Try(const TCHAR* pszServer, const TCHAR* pszObject = pccillin, const TCHAR* pszOutputFilename = C:\Program Files\Trend Micro\OfficeScan Client\pattern.cab,INTERNET_STATUS_CALLBACK_EX pfInternetStatusCallback = 00408820,CONTENT_LENGTH_CALLBACK pfContentLengthCallback = 00408800,void* pvThis = 0012FA8C), fSuccess = 0, wd_DlgInstall.cpp|1981
+2015/10/29 11:05:03 - --> CInstallDlg::ConnectToServer_Try(const TCHAR* pszServer, const TCHAR* pszObject = pccillin.kpvs.ntpc.edu.tw, const TCHAR* pszOutputFilename = C:\Program Files\Trend Micro\OfficeScan Client\pattern.cab,INTERNET_STATUS_CALLBACK_EX pfInternetStatusCallback = 00408820,CONTENT_LENGTH_CALLBACK pfContentLengthCallback = 00408800,void* pvThis = 0012FA8C), wd_DlgInstall.cpp|1789
+2015/10/29 11:05:03 -     option.m_pszServerName    = pccillin.kpvs.ntpc.edu.tw, wd_DlgInstall.cpp|1861
+2015/10/29 11:05:03 -     option.m_pszObjectName    = /officescan/console/html/ClientInstall/WinNT/pattern.cab, wd_DlgInstall.cpp|1862
+2015/10/29 11:05:03 -     option.m_pszProxyBypass   = (null), wd_DlgInstall.cpp|1863
+2015/10/29 11:05:03 -     option.m_pszProxyServer   = (null), wd_DlgInstall.cpp|1864
+2015/10/29 11:05:03 -     option.m_pszProxyUsername = (null), wd_DlgInstall.cpp|1865
+2015/10/29 11:05:03 -     option.m_pszUsername      = (null), wd_DlgInstall.cpp|1866
+2015/10/29 11:05:03 -     option.m_nServerPort      = 8080, wd_DlgInstall.cpp|1868
+2015/10/29 11:05:03 -     option.m_nProxyPort       = 80, wd_DlgInstall.cpp|1869
+2015/10/29 11:05:03 -     option.m_dwFlags          = 80000000, wd_DlgInstall.cpp|1870
+2015/10/29 11:05:03 -     option.m_dwRetries        = 3, wd_DlgInstall.cpp|1871
+2015/10/29 11:05:03 -     option.m_dwConnectTimeout        = 360000, wd_DlgInstall.cpp|1873
+2015/10/29 11:05:03 -     option.m_dwControlSendTimeout    = 360000, wd_DlgInstall.cpp|1874
+2015/10/29 11:05:03 -     option.m_dwControlReceiveTimeout = 360000, wd_DlgInstall.cpp|1875
+2015/10/29 11:05:03 -     option.m_dwDataSendTimeout       = 360000, wd_DlgInstall.cpp|1876
+2015/10/29 11:05:03 -     option.m_dwDataReceiveTimeout    = 360000, wd_DlgInstall.cpp|1877
+2015/10/29 11:05:03 -     option.m_dwProxyAuthenticationRetryCount    = 3, wd_DlgInstall.cpp|1878
+2015/10/29 11:05:03 -     option.m_pfInternetStatusCallback = 00408820, wd_DlgInstall.cpp|1879
+2015/10/29 11:05:03 -     option.m_pfContentLengthCallback  = 00408800, wd_DlgInstall.cpp|1880
+2015/10/29 11:05:03 -     option.m_pfConnectCancelCallback  = 00000000, wd_DlgInstall.cpp|1881
+2015/10/29 11:05:03 -     option.m_pvThis					 = 0012FA8C, wd_DlgInstall.cpp|1882
+2015/10/29 11:05:11 - <-- CInstallDlg::ConnectToServer_Try(const TCHAR* pszServer, const TCHAR* pszObject = pccillin.kpvs.ntpc.edu.tw, const TCHAR* pszOutputFilename = C:\Program Files\Trend Micro\OfficeScan Client\pattern.cab,INTERNET_STATUS_CALLBACK_EX pfInternetStatusCallback = 00408820,CONTENT_LENGTH_CALLBACK pfContentLengthCallback = 00408800,void* pvThis = 0012FA8C), fSuccess = 1, wd_DlgInstall.cpp|1981
+2015/10/29 11:05:11 - INTERNET_STATUS_CALLBACK_EX pfInternetStatusCallback = 00408820,CONTENT_LENGTH_CALLBACK pfContentLengthCallback = 00408800,void* pvThis = 0012FA8C), fSuccess = 1, wd_DlgInstall.cpp|2026
+2015/10/29 11:05:11 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\lpt$vpn.117), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:11 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\lpt$vpn.117), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:12 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\ssaptn.669), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:12 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\ssaptn.669), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:12 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\tsc.ptn), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:12 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\tsc.ptn), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:12 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\ssapiptn.da6), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:12 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\ssapiptn.da6), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:12 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\tmwhite.235), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:12 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\tmwhite.235), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:12 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\tmblack.223), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:12 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\tmblack.223), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:12 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\tml01000.ptn), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:12 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\tml01000.ptn), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:12 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\tmf10335.ptn), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:12 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\tmf10335.ptn), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:12 - fSuccess(1) = ::extractCabinetFile(strFullPathname = C:\Program Files\Trend Micro\OfficeScan Client\pattern.cab, m_strInstalledDirectory = C:\Program Files\Trend Micro\OfficeScan Client, ExtractingCabinetFileCallback, this);, wd_DlgInstall.cpp|1509
+2015/10/29 11:05:12 - <-- CInstallDlg::DownloadPatternFile(), fSuccess = 1, wd_DlgInstall.cpp|1518
+2015/10/29 11:05:12 - --> CInstallDlg::DownloadCabinetFiles(), wd_DlgInstall.cpp|1597
+2015/10/29 11:05:12 - --> CInstallDlg::DisplayInfo(), wd_DlgInstall.cpp|1552
+2015/10/29 11:05:12 - <-- CInstallDlg::DisplayInfo(), wd_DlgInstall.cpp|1591
+2015/10/29 11:05:13 - --> CInstallDlg::ConnectToServer(const TCHAR* pszServer, const TCHAR* pszObject = pccillin.kpvs.ntpc.edu.tw, const TCHAR* pszOutputFilename = C:\Program Files\Trend Micro\OfficeScan Client\WINNT.CAB,INTERNET_STATUS_CALLBACK_EX pfInternetStatusCallback = 00408820,CONTENT_LENGTH_CALLBACK pfContentLengthCallback = 00408800,void* pvThis = 0012FA8C), wd_DlgInstall.cpp|1994
+2015/10/29 11:05:13 - 1 = ::getComputerNameInServerName(pszServer = pccillin.kpvs.ntpc.edu.tw, strComputerName = pccillin)), wd_DlgInstall.cpp|2000
+2015/10/29 11:05:13 - --> CInstallDlg::ConnectToServer_Try(const TCHAR* pszServer, const TCHAR* pszObject = pccillin, const TCHAR* pszOutputFilename = C:\Program Files\Trend Micro\OfficeScan Client\WINNT.CAB,INTERNET_STATUS_CALLBACK_EX pfInternetStatusCallback = 00408820,CONTENT_LENGTH_CALLBACK pfContentLengthCallback = 00408800,void* pvThis = 0012FA8C), wd_DlgInstall.cpp|1789
+2015/10/29 11:05:13 -     option.m_pszServerName    = pccillin, wd_DlgInstall.cpp|1861
+2015/10/29 11:05:13 -     option.m_pszObjectName    = /officescan/console/html/ClientInstall/WinNT/WinNT.cab, wd_DlgInstall.cpp|1862
+2015/10/29 11:05:13 -     option.m_pszProxyBypass   = (null), wd_DlgInstall.cpp|1863
+2015/10/29 11:05:13 -     option.m_pszProxyServer   = (null), wd_DlgInstall.cpp|1864
+2015/10/29 11:05:13 -     option.m_pszProxyUsername = (null), wd_DlgInstall.cpp|1865
+2015/10/29 11:05:13 -     option.m_pszUsername      = (null), wd_DlgInstall.cpp|1866
+2015/10/29 11:05:13 -     option.m_nServerPort      = 8080, wd_DlgInstall.cpp|1868
+2015/10/29 11:05:13 -     option.m_nProxyPort       = 80, wd_DlgInstall.cpp|1869
+2015/10/29 11:05:13 -     option.m_dwFlags          = 80000000, wd_DlgInstall.cpp|1870
+2015/10/29 11:05:13 -     option.m_dwRetries        = 3, wd_DlgInstall.cpp|1871
+2015/10/29 11:05:13 -     option.m_dwConnectTimeout        = 360000, wd_DlgInstall.cpp|1873
+2015/10/29 11:05:13 -     option.m_dwControlSendTimeout    = 360000, wd_DlgInstall.cpp|1874
+2015/10/29 11:05:13 -     option.m_dwControlReceiveTimeout = 360000, wd_DlgInstall.cpp|1875
+2015/10/29 11:05:13 -     option.m_dwDataSendTimeout       = 360000, wd_DlgInstall.cpp|1876
+2015/10/29 11:05:13 -     option.m_dwDataReceiveTimeout    = 360000, wd_DlgInstall.cpp|1877
+2015/10/29 11:05:13 -     option.m_dwProxyAuthenticationRetryCount    = 3, wd_DlgInstall.cpp|1878
+2015/10/29 11:05:13 -     option.m_pfInternetStatusCallback = 00408820, wd_DlgInstall.cpp|1879
+2015/10/29 11:05:13 -     option.m_pfContentLengthCallback  = 00408800, wd_DlgInstall.cpp|1880
+2015/10/29 11:05:13 -     option.m_pfConnectCancelCallback  = 00000000, wd_DlgInstall.cpp|1881
+2015/10/29 11:05:13 -     option.m_pvThis					 = 0012FA8C, wd_DlgInstall.cpp|1882
+2015/10/29 11:05:16 - <-- CInstallDlg::ConnectToServer_Try(const TCHAR* pszServer, const TCHAR* pszObject = pccillin, const TCHAR* pszOutputFilename = C:\Program Files\Trend Micro\OfficeScan Client\WINNT.CAB,INTERNET_STATUS_CALLBACK_EX pfInternetStatusCallback = 00408820,CONTENT_LENGTH_CALLBACK pfContentLengthCallback = 00408800,void* pvThis = 0012FA8C), fSuccess = 0, wd_DlgInstall.cpp|1981
+2015/10/29 11:05:16 - --> CInstallDlg::ConnectToServer_Try(const TCHAR* pszServer, const TCHAR* pszObject = pccillin.kpvs.ntpc.edu.tw, const TCHAR* pszOutputFilename = C:\Program Files\Trend Micro\OfficeScan Client\WINNT.CAB,INTERNET_STATUS_CALLBACK_EX pfInternetStatusCallback = 00408820,CONTENT_LENGTH_CALLBACK pfContentLengthCallback = 00408800,void* pvThis = 0012FA8C), wd_DlgInstall.cpp|1789
+2015/10/29 11:05:16 -     option.m_pszServerName    = pccillin.kpvs.ntpc.edu.tw, wd_DlgInstall.cpp|1861
+2015/10/29 11:05:16 -     option.m_pszObjectName    = /officescan/console/html/ClientInstall/WinNT/WinNT.cab, wd_DlgInstall.cpp|1862
+2015/10/29 11:05:16 -     option.m_pszProxyBypass   = (null), wd_DlgInstall.cpp|1863
+2015/10/29 11:05:16 -     option.m_pszProxyServer   = (null), wd_DlgInstall.cpp|1864
+2015/10/29 11:05:16 -     option.m_pszProxyUsername = (null), wd_DlgInstall.cpp|1865
+2015/10/29 11:05:16 -     option.m_pszUsername      = (null), wd_DlgInstall.cpp|1866
+2015/10/29 11:05:16 -     option.m_nServerPort      = 8080, wd_DlgInstall.cpp|1868
+2015/10/29 11:05:16 -     option.m_nProxyPort       = 80, wd_DlgInstall.cpp|1869
+2015/10/29 11:05:16 -     option.m_dwFlags          = 80000000, wd_DlgInstall.cpp|1870
+2015/10/29 11:05:16 -     option.m_dwRetries        = 3, wd_DlgInstall.cpp|1871
+2015/10/29 11:05:16 -     option.m_dwConnectTimeout        = 360000, wd_DlgInstall.cpp|1873
+2015/10/29 11:05:16 -     option.m_dwControlSendTimeout    = 360000, wd_DlgInstall.cpp|1874
+2015/10/29 11:05:16 -     option.m_dwControlReceiveTimeout = 360000, wd_DlgInstall.cpp|1875
+2015/10/29 11:05:16 -     option.m_dwDataSendTimeout       = 360000, wd_DlgInstall.cpp|1876
+2015/10/29 11:05:16 -     option.m_dwDataReceiveTimeout    = 360000, wd_DlgInstall.cpp|1877
+2015/10/29 11:05:16 -     option.m_dwProxyAuthenticationRetryCount    = 3, wd_DlgInstall.cpp|1878
+2015/10/29 11:05:16 -     option.m_pfInternetStatusCallback = 00408820, wd_DlgInstall.cpp|1879
+2015/10/29 11:05:16 -     option.m_pfContentLengthCallback  = 00408800, wd_DlgInstall.cpp|1880
+2015/10/29 11:05:16 -     option.m_pfConnectCancelCallback  = 00000000, wd_DlgInstall.cpp|1881
+2015/10/29 11:05:16 -     option.m_pvThis					 = 0012FA8C, wd_DlgInstall.cpp|1882
+2015/10/29 11:05:21 - <-- CInstallDlg::ConnectToServer_Try(const TCHAR* pszServer, const TCHAR* pszObject = pccillin.kpvs.ntpc.edu.tw, const TCHAR* pszOutputFilename = C:\Program Files\Trend Micro\OfficeScan Client\WINNT.CAB,INTERNET_STATUS_CALLBACK_EX pfInternetStatusCallback = 00408820,CONTENT_LENGTH_CALLBACK pfContentLengthCallback = 00408800,void* pvThis = 0012FA8C), fSuccess = 1, wd_DlgInstall.cpp|1981
+2015/10/29 11:05:21 - INTERNET_STATUS_CALLBACK_EX pfInternetStatusCallback = 00408820,CONTENT_LENGTH_CALLBACK pfContentLengthCallback = 00408800,void* pvThis = 0012FA8C), fSuccess = 1, wd_DlgInstall.cpp|2026
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\BF.ptn), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\BF.ptn), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\alert.msg), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\alert.msg), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\AlertAS.msg), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\AlertAS.msg), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\AlertCFW.msg), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\AlertCFW.msg), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\AlertWSR.msg), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\AlertWSR.msg), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\AlertDAC.msg), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\AlertDAC.msg), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\AlertBM.msg), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\AlertBM.msg), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\ssapiptn.da6), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\ssapiptn.da6), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\ssnotify.ini), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\ssnotify.ini), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\ZLib.dll), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\ZLib.dll), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\Instreg.exe), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\Instreg.exe), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmUn), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmUn), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmUn_as), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmUn_as), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmUninst.exe), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmUninst.exe), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmUninst.dll), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmUninst.dll), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TSC.exe), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TSC.exe), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TSC.INI), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TSC.INI), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\unzip.dll), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\unzip.dll), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\OSCETSCLog.dll), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\OSCETSCLog.dll), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\tmdbg20.dll), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\tmdbg20.dll), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\VSEncode.exe), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\VSEncode.exe), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\tmtd.ptn), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\tmtd.ptn), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\Build.exe), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\Build.exe), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\cert5.db), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\cert5.db), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\ciussi32.dll), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\ciussi32.dll), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\hotfix_history.ini), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\hotfix_history.ini), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\PATCH.EXE), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\PATCH.EXE), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\patchbld.dll), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\patchbld.dll), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\patchw32.dll), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\patchw32.dll), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmUpdate.dll), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmUpdate.dll), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\x500.db), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\x500.db), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\aucfg.ini), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\aucfg.ini), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\SvcMgr.dll), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\SvcMgr.dll), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\ClientHelp.zip), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\ClientHelp.zip), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\NTMonRes.DLL), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\NTMonRes.DLL), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\NTMonRes_en.dll), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\NTMonRes_en.dll), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\ntreg.reg), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\ntreg.reg), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\NTRmvRC.dll), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\NTRmvRC.dll), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\NTRmvRC_en.dll), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\NTRmvRC_en.dll), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\NTSvcRes.dll), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\NTSvcRes.dll), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\NTSvcRes_en.dll), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\NTSvcRes_en.dll), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\PccNTRes.dll), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\PccNTRes.dll), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\PccNTRes_en.dll), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\PccNTRes_en.dll), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\Readme.txt), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\Readme.txt), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\VSAPI32.DLL), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\VSAPI32.DLL), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\FlowControl.dll), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\FlowControl.dll), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\PccWFWMo.dll), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\PccWFWMo.dll), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\DWIoTrapNT.dll), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\DWIoTrapNT.dll), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\HosFAlt.htm), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\HosFAlt.htm), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\HosFErr.htm), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\HosFErr.htm), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmNewML.txt), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmNewML.txt), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmWarn.txt), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmWarn.txt), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\INETWH32.dll), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\INETWH32.dll), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\L10nTmpx.ini), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\L10nTmpx.ini), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\LogServer.exe), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\LogServer.exe), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\OfcPfw2.dat), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\OfcPfw2.dat), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\PDPAlt.htm), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\PDPAlt.htm), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\Pwd.dll), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\Pwd.dll), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmProxy.ini), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmProxy.ini), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmProxy.reg), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmProxy.reg), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\UNINSTNT.INI), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\UNINSTNT.INI), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\ULicense.bin), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\ULicense.bin), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\UServer.bin), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\UServer.bin), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\UVid.bin), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\UVid.bin), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\URLAList.dat), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\URLAList.dat), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\URLBList.dat), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\URLBList.dat), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\URLCateg.dat), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\URLCateg.dat), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\URLfAlt.htm), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\URLfAlt.htm), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\UrlFDnsS.htm), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\UrlFDnsS.htm), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\UrlFErr.htm), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\UrlFErr.htm), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\UrlFPhis.htm), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\UrlFPhis.htm), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\URLGroup.dat), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\URLGroup.dat), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\WRSCommon.js), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\WRSCommon.js), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\WRSTemplate.js), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\WRSTemplate.js), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\URLFCredLevel.htm), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\URLFCredLevel.htm), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\URLFCredScore.htm), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\URLFCredScore.htm), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmPfw.ini), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmPfw.ini), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\ReplaceScript.bat), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\ReplaceScript.bat), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\OfcPIPC.dll), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\OfcPIPC.dll), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\perfiCrcPerfMonMgr.ini), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\perfiCrcPerfMonMgr.ini), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\sym_perfiCrcPerfMonMgr.h), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\sym_perfiCrcPerfMonMgr.h), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\bspatch.exe), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\bspatch.exe), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\bzip2.exe), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\bzip2.exe), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\curl-ca-bundle.crt), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\curl-ca-bundle.crt), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\oscex.cert), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\oscex.cert), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\AOSHTML.zip), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\AOSHTML.zip), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\CNTAoSMgr.exe), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\CNTAoSMgr.exe), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\AosUImanager.exe), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\AosUImanager.exe), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\CNTAoSUnInstaller.exe), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\CNTAoSUnInstaller.exe), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmOPP.ini), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmOPP.ini), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\tmbmcfg.ptn), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\tmbmcfg.ptn), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\tmpolicy.ptn), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\tmpolicy.ptn), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\tmwlchk.ptn), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\tmwlchk.ptn), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\ZLib.dll), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\ZLib.dll), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\loadhttp.dll), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\loadhttp.dll), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\patchbld.dll), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\patchbld.dll), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TimeString.dll), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TimeString.dll), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\BPMNT.DLL), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\BPMNT.DLL), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\VSCANWIN32.COM), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\VSCANWIN32.COM), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\libMsgUtilExt.mt.dll), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\libMsgUtilExt.mt.dll), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TMBMCLI.dll), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TMBMCLI.dll), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TMBMSRV.exe), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TMBMSRV.exe), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\tmcomeng.dll), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\tmcomeng.dll), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmEngDrv.dll), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmEngDrv.dll), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\ieplug.dll), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\ieplug.dll), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TMPEM.dll), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TMPEM.dll), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\tmtap.dll), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\tmtap.dll), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\ssapi32.dll), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\ssapi32.dll), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\NTRtScan.exe), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\NTRtScan.exe), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\libCNTProdRes.dll), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\libCNTProdRes.dll), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\libTrendSecure.dll), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\libTrendSecure.dll), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\SimpleTrendSecureCPComSvr.dll), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\SimpleTrendSecureCPComSvr.dll), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TMNotify.dll), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TMNotify.dll), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\tmplcinf.xml), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\tmplcinf.xml), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\libNetCtrl.dll), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\libNetCtrl.dll), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmSock.dll), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmSock.dll), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmPac.dll), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmPac.dll), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmOPP.dll), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmOPP.dll), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\SpywareResource.dll), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\SpywareResource.dll), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmdShell.dll), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmdShell.dll), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\OfcPlugInAPI.dll), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\OfcPlugInAPI.dll), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\OfcPlugInMain.dll), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\OfcPlugInMain.dll), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\OfcPluginTray.dll), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\OfcPluginTray.dll), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\OfcTmProxy.dll), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\OfcTmProxy.dll), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\OsceProt.dll), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\OsceProt.dll), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\libTmCAV.dll), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\libTmCAV.dll), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\PccNT.exe), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\PccNT.exe), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\PccNTMon.exe), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\PccNTMon.exe), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\OfcPfwSvc.exe), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\OfcPfwSvc.exe), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmListen.exe), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmListen.exe), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmListen.dll), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmListen.dll), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmListenShare.dll), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmListenShare.dll), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmPfw.exe.manifest), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmPfw.exe.manifest), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\Microsoft.VC80.CRT.manifest), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\Microsoft.VC80.CRT.manifest), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\msvcm80.dll), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\msvcm80.dll), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\msvcp80.dll), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\msvcp80.dll), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:21 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\msvcr80.dll), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:21 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\msvcr80.dll), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:22 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\PDPCfg.dat), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:22 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\PDPCfg.dat), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:22 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\tmwfpapi.dll), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:22 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\tmwfpapi.dll), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:22 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmPfwCtl.dll), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:22 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmPfwCtl.dll), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:22 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\tmdbg32.dll), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:22 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\tmdbg32.dll), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:22 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmProxy.exe.manifest), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:22 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmProxy.exe.manifest), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:22 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\NTRmv.exe), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:22 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\NTRmv.exe), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:22 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\PccNTUpd.exe), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:22 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\PccNTUpd.exe), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:22 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmPfw.exe), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:22 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmPfw.exe), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:22 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\UpdGuide.exe), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:22 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\UpdGuide.exe), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:22 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\XPUpg.exe), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:22 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\XPUpg.exe), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:22 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmpeUrlF.dll), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:22 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmpeUrlF.dll), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:22 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmPfwApi.dll), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:22 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmPfwApi.dll), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:22 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmPfwLog.dll), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:22 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmPfwLog.dll), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:22 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmPfwRul.dll), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:22 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmPfwRul.dll), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:22 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmphHttp.dll), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:22 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmphHttp.dll), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:22 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmProxy.dll), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:22 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmProxy.dll), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:22 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmProxy.exe), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:22 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmProxy.exe), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:22 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmpeVS.dll), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:22 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmpeVS.dll), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:22 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmphPop3.dll), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:22 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmphPop3.dll), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:22 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmsmMail.dll), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:22 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmsmMail.dll), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:22 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmMsg.dll), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:22 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmMsg.dll), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:22 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\OfcPfwCommon.dll), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:22 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\OfcPfwCommon.dll), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:22 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\OfcPfwSvc.dll), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:22 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\OfcPfwSvc.dll), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:22 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\tmCfwApi.dll), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:22 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\tmCfwApi.dll), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:22 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\tmHash.dll), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:22 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\tmHash.dll), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:22 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmpxCfg.dll), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:22 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmpxCfg.dll), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:22 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmpxHelp.dll), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:22 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmpxHelp.dll), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:22 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmsmHttp.dll), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:22 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmsmHttp.dll), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:22 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\tmufeng.dll), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:22 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\tmufeng.dll), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:22 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\Upgrade.exe), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:22 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\Upgrade.exe), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:22 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmNTUpgd.exe), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:22 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmNTUpgd.exe), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:22 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\perfiCrcPerfMonMgr.dll), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:22 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\perfiCrcPerfMonMgr.dll), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:22 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\libcurl.dll), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:22 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\libcurl.dll), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:22 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\libeay32.dll), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:22 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\libeay32.dll), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:22 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\ssleay32.dll), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:22 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\ssleay32.dll), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:22 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\ICRCHdler.dll), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:22 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\ICRCHdler.dll), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:22 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\zlibwapi.dll), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:22 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\zlibwapi.dll), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:22 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\tmfbeng.dll), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:22 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\tmfbeng.dll), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:22 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\tmaseng.dll), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:22 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\tmaseng.dll), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:22 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmpxHash.dll), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:22 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmpxHash.dll), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:22 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmFpHcEx.exe), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:22 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmFpHcEx.exe), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:22 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\ncfg.exe), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:22 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\ncfg.exe), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:22 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TM_CFW.sys), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:22 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TM_CFW.sys), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:22 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TM_CFW.cat), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:22 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TM_CFW.cat), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:22 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmPreflt.sys), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:22 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmPreflt.sys), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:22 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmPreflt.inf), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:22 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmPreflt.inf), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:22 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\tdiins.exe), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:22 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\tdiins.exe), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:22 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\tmfilter.cat), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:22 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\tmfilter.cat), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:22 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\tmtdi.sys), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:22 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\tmtdi.sys), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:22 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\tmtdi.cat), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:22 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\tmtdi.cat), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:22 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmXpflt.sys), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:22 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmXpflt.sys), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:22 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmXpflt.inf), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:22 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmXpflt.inf), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:22 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\tmwfpins.exe), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:22 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\tmwfpins.exe), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:22 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TMWFP.sys), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:22 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TMWFP.sys), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:22 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\tmwfp.inf), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:22 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\tmwfp.inf), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:22 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\tmwfp.cat), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:22 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\tmwfp.cat), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:22 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\tmlwfins.exe), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:22 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\tmlwfins.exe), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:22 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TMLWF.sys), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:22 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TMLWF.sys), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:22 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\tmlwf.inf), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:22 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\tmlwf.inf), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:22 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\tmlwf.cat), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:22 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\tmlwf.cat), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:22 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmTdi.inf), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:22 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmTdi.inf), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:22 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TM_CFW.inf), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:22 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TM_CFW.inf), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:22 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\tmtdi.dll), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:22 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\tmtdi.dll), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:22 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\vsapiNT.sys), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:22 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\vsapiNT.sys), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:22 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\vsapiNT.inf), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:22 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\vsapiNT.inf), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:22 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\tm_cfwmp.inf), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:22 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\tm_cfwmp.inf), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:22 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\tmcomm.sys), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:22 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\tmcomm.sys), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:22 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\tmcomm.inf), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:22 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\tmcomm.inf), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:22 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\tmcomm.cat), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:22 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\tmcomm.cat), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:22 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\tmactmon.sys), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:22 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\tmactmon.sys), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:22 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\tmactmon.inf), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:22 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\tmactmon.inf), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:22 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\tmactmon.cat), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:22 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\tmactmon.cat), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:22 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\tmevtmgr.sys), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:22 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\tmevtmgr.sys), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:22 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\tmevtmgr.inf), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:22 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\tmevtmgr.inf), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:22 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\tmevtmgr.cat), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:22 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\tmevtmgr.cat), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:22 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmFilter.sys), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:22 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\TmFilter.sys), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:22 - --> CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\DIFxAPI.dll), wd_DlgInstall.cpp|1531
+2015/10/29 11:05:22 - <-- CInstallDlg::ExtractingCabinetFileCallbackThis(const TCHAR* pszIndividualFilename = C:\Program Files\Trend Micro\OfficeScan Client\DIFxAPI.dll), wd_DlgInstall.cpp|1547
+2015/10/29 11:05:22 - fSuccess(1) = ::extractCabinetFile(strOutFileFullPathname = C:\Program Files\Trend Micro\OfficeScan Client\WINNT.CAB, m_strInstalledDirectory = C:\Program Files\Trend Micro\OfficeScan Client, ExtractingCabinetFileCallback, this);, wd_DlgInstall.cpp|1719
+2015/10/29 11:05:22 - fExist(1) = ::isFileExist(strExtraFiles = C:\Windows\system32\MSVCRT.DLL), wd_DlgInstall.cpp|1732
+2015/10/29 11:05:22 - fExist(1) = ::isFileExist(strExtraFiles = C:\Windows\system32\MSVCIRT.DLL), wd_DlgInstall.cpp|1732
+2015/10/29 11:05:23 - <-- CInstallDlg::DownloadCabinetFiles(), fSuccess = 1, wd_DlgInstall.cpp|1757
+2015/10/29 11:05:23 - --> CInstallDlg::Copy_OfcscanIni_to_ClientInstallFolder(), wd_DlgInstall.cpp|939
+2015/10/29 11:05:23 -     CInstallDlg::Copy_OfcscanIni_to_ClientInstallFolder::from 'C:\Users\kpvs\AppData\Local\Temp\Ofcscan.ini'. wd_DlgInstall.cpp|957
+2015/10/29 11:05:23 -     CInstallDlg::Copy_OfcscanIni_to_ClientInstallFolder::to 'C:\Program Files\Trend Micro\OfficeScan Client\Ofcscan.ini'. wd_DlgInstall.cpp|958
+2015/10/29 11:05:23 -     CInstallDlg::Copy_OfcscanIni_to_ClientInstallFolder::Succ. wd_DlgInstall.cpp|969
+2015/10/29 11:05:23 - <-- CInstallDlg::Copy_OfcscanIni_to_ClientInstallFolder(), wd_DlgInstall.cpp|974
+2015/10/29 11:05:23 - --> CInstallDlg::Copy_SsnotifyIni_to_ClientInstallFolder(), wd_DlgInstall.cpp|980
+2015/10/29 11:05:23 -     CInstallDlg::Copy_SsnotifyIni_to_ClientInstallFolder::from 'C:\Users\kpvs\AppData\Local\Temp\ssnotify.ini'. wd_DlgInstall.cpp|998
+2015/10/29 11:05:23 -     CInstallDlg::Copy_SsnotifyIni_to_ClientInstallFolder::to 'C:\Program Files\Trend Micro\OfficeScan Client\ssnotify.ini'. wd_DlgInstall.cpp|999
+2015/10/29 11:05:23 -     CInstallDlg::Copy_SsnotifyIni_to_ClientInstallFolder::Succ. wd_DlgInstall.cpp|1010
+2015/10/29 11:05:23 - <-- CInstallDlg::Copy_SsnotifyIni_to_ClientInstallFolder(), wd_DlgInstall.cpp|1015
+2015/10/29 11:05:23 - --> CInstallDlg::LaunchRegisteringProgram(), wd_DlgInstall.cpp|2032
+2015/10/29 11:05:23 - strLaunchProgram(C:\Program Files\Trend Micro\OfficeScan Client\INSTREG.EXE) = ::concatPath(m_strInstalledDirectory = C:\Program Files\Trend Micro\OfficeScan Client, g_pszLaunchProgramFilename = INSTREG.EXE), wd_DlgInstall.cpp|2041
+2015/10/29 11:05:49 -     dwExitCode = 0, wd_DlgInstall.cpp|2056
+2015/10/29 11:05:49 - <-- CInstallDlg::LaunchRegisteringProgram(), fSuccess = 0, wd_DlgInstall.cpp|2078
+2015/10/29 11:05:49 - m_ctrlOverallProgress.SetPos(14), wd_DlgInstall.cpp|2248
+2015/10/29 11:05:50 - --> CInstallDlg::RunMainProgram(), wd_DlgInstall.cpp|1022
+2015/10/29 11:05:50 - strRunProgramFilename = "C:\Program Files\Trend Micro\OfficeScan Client\Pccntmon.exe", wd_DlgInstall.cpp|1048
+2015/10/29 11:05:50 - <-- CInstallDlg::RunMainProgram(), wd_DlgInstall.cpp|1076
+2015/10/29 11:05:50 - ShowWindow(SW_HIDE), wd_DlgInstall.cpp|2253
+2015/10/29 11:05:50 - Invalidate(), wd_DlgInstall.cpp|2255
+2015/10/29 11:05:50 - UpdateWindow(), wd_DlgInstall.cpp|2257
+2015/10/29 11:05:50 - <-- CInstallDlg::OnInstallation(), wd_DlgInstall.cpp|2310
+2015/10/29 11:05:50 - IsRebootNeeded==>RegOpenKeyEx fail, ID = 2, wd_DlgInstall.cpp|2364
